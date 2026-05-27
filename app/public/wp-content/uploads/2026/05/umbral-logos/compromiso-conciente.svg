@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <defs>
+    <!-- Gold gradient for metallic effect - multi-stop -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e5ab"/>
+      <stop offset="20%" stop-color="#c5a059"/>
+      <stop offset="40%" stop-color="#f3e5ab"/>
+      <stop offset="60%" stop-color="#c5a059"/>
+      <stop offset="100%" stop-color="#5c4033"/>
+    </linearGradient>
+
+    <!-- Brushed metal filter -->
+    <filter id="brushedMetal" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04 0.4" numOctaves="3" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <!-- Drop shadow -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Inner shadow for recessed effect -->
+    <filter id="innerShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feComponentTransfer in="SourceAlpha">
+        <feFuncA type="table" tableValues="1 0"/>
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.5"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Frame gradient -->
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e5ab"/>
+      <stop offset="30%" stop-color="#c5a059"/>
+      <stop offset="70%" stop-color="#b08d57"/>
+      <stop offset="100%" stop-color="#5c4033"/>
+    </linearGradient>
+
+    <!-- Center disc gradient -->
+    <radialGradient id="discGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </radialGradient>
+
+    <!-- Cotton boll gradient -->
+    <linearGradient id="cottonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3e5ab"/>
+      <stop offset="50%" stop-color="#c5a059"/>
+      <stop offset="100%" stop-color="#8b7345"/>
+    </linearGradient>
+
+    <!-- Leaf gradient -->
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#b08d57"/>
+      <stop offset="100%" stop-color="#5c4033"/>
+    </linearGradient>
+
+    <!-- Spool gradient -->
+    <linearGradient id="spoolGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b7345"/>
+      <stop offset="25%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f3e5ab"/>
+      <stop offset="75%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#5c4033"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="600" fill="#fdfcf9"/>
+
+  <!-- Circular Frame -->
+  <g id="frame">
+    <!-- Outer thin ring -->
+    <circle cx="250" cy="270" r="200" fill="none" stroke="#f3e5ab" stroke-width="2"/>
+    <!-- Thick beveled ring -->
+    <circle cx="250" cy="270" r="198" fill="none" stroke="url(#frameGrad)" stroke-width="16"/>
+    <!-- Inner bevel highlight -->
+    <circle cx="250" cy="270" r="188" fill="none" stroke="#f3e5ab" stroke-width="1.5"/>
+    <!-- Central dark disc -->
+    <circle cx="250" cy="270" r="186" fill="url(#discGrad)"/>
+  </g>
+
+  <!-- Cotton Plant -->
+  <g id="cottonPlant" filter="url(#dropShadow)">
+    <!-- Cotton Boll - Center -->
+    <!-- Outer fluff lobes -->
+    <ellipse cx="220" cy="200" rx="28" ry="32" fill="none" stroke="url(#cottonGrad)" stroke-width="4"/>
+    <ellipse cx="280" cy="200" rx="28" ry="32" fill="none" stroke="url(#cottonGrad)" stroke-width="4"/>
+    <ellipse cx="250" cy="180" rx="30" ry="28" fill="none" stroke="url(#cottonGrad)" stroke-width="4"/>
+    <ellipse cx="210" cy="220" rx="25" ry="28" fill="none" stroke="url(#cottonGrad)" stroke-width="4"/>
+    <ellipse cx="290" cy="220" rx="25" ry="28" fill="none" stroke="url(#cottonGrad)" stroke-width="4"/>
+    <!-- Inner detail arcs -->
+    <path d="M225 185 Q250 175 275 185" fill="none" stroke="url(#cottonGrad)" stroke-width="2"/>
+    <path d="M215 210 Q225 195 240 195" fill="none" stroke="url(#cottonGrad)" stroke-width="2"/>
+    <path d="M260 195 Q275 195 285 210" fill="none" stroke="url(#cottonGrad)" stroke-width="2"/>
+
+    <!-- Calyx / Sepals (base of boll) -->
+    <!-- Center sepal - filled -->
+    <polygon points="250,235 240,260 260,260" fill="url(#cottonGrad)"/>
+    <!-- Side sepals - outlined -->
+    <polygon points="225,240 210,265 235,260" fill="none" stroke="url(#cottonGrad)" stroke-width="3"/>
+    <polygon points="275,240 290,265 265,260" fill="none" stroke="url(#cottonGrad)" stroke-width="3"/>
+
+    <!-- Stem -->
+    <path d="M250 260 Q245 300 250 340" fill="none" stroke="url(#cottonGrad)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Stem highlight -->
+    <path d="M248 265 Q244 300 248 340" fill="none" stroke="#f3e5ab" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Leaf (left side) -->
+  <g id="leaf" filter="url(#dropShadow)">
+    <path d="M248 290 Q180 260 165 320 Q200 360 248 310" fill="url(#leafGrad)"/>
+    <!-- Leaf veins -->
+    <path d="M248 295 Q195 280 175 320" fill="none" stroke="#5c4033" stroke-width="1.5"/>
+    <path d="M220 285 Q200 295 185 310" fill="none" stroke="#5c4033" stroke-width="1"/>
+    <path d="M230 300 Q215 310 200 325" fill="none" stroke="#5c4033" stroke-width="1"/>
+    <path d="M240 310 Q230 320 220 330" fill="none" stroke="#5c4033" stroke-width="1"/>
+  </g>
+
+  <!-- Spool of Thread (right side) -->
+  <g id="spool" filter="url(#dropShadow)">
+    <!-- Spool body -->
+    <rect x="295" y="270" width="35" height="45" rx="4" fill="url(#spoolGrad)"/>
+    <!-- Top rim -->
+    <ellipse cx="312" cy="270" rx="17" ry="6" fill="url(#spoolGrad)"/>
+    <!-- Bottom rim -->
+    <ellipse cx="312" cy="315" rx="17" ry="6" fill="url(#spoolGrad)"/>
+    <!-- Thread texture lines -->
+    <g stroke="#5c4033" stroke-width="1">
+      <line x1="300" y1="285" x2="325" y2="285"/>
+      <line x1="299" y1="293" x2="326" y2="293"/>
+      <line x1="298" y1="301" x2="327" y2="301"/>
+      <line x1="299" y1="309" x2="326" y2="309"/>
+    </g>
+    <!-- Thread tail -->
+    <path d="M295 300 Q270 320 250 340" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="250" y="510" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#b08d57" letter-spacing="5" font-weight="500">COMPROMISO</text>
+  <text x="250" y="545" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#b08d57" letter-spacing="5" font-weight="500">CONSCIENTE</text>
+
+  <!-- Decorative line -->
+  <line x1="140" y1="570" x2="360" y2="570" stroke="#b08d57" stroke-width="1"/>
+</svg>

@@ -1,0 +1,880 @@
+0000.000 (0) Opened log file at time: Wed, 27 May 2026 21:26:37 +0000 on http://umbral.local
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.4 WP: 7.0 PHP: 8.2.29 (cgi-fcgi, Windows NT DARIUS 10.0 build 26200 (Windows 11) AMD64) MySQL: 8.4.0 (max packet size=1073741824) WPLANG: es_AR Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.6M | 32M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 487526.3 MB
+0000.023 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.054 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.077 (0) Set semaphore last lock (fd) time to 2026-05-27 21:26:37
+0000.082 (0) Semaphore lock (fd) complete
+0000.100 (0) Backup run: resumption=0, nonce=cc1efbacaeef, file_nonce=cc1efbacaeef begun at=1779917197 (0s ago), job type=backup
+0000.113 (0) Scheduling a resumption (1) after 300 seconds (1779917497) in case this run gets aborted
+0000.150 (0) Checking if we have a zip executable available
+0000.162 (0) Creation of backups of directories: beginning
+0000.181 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0007.009 (0) Total entities for the zip file: 3061 directories, 17956 files (0 skipped as non-modified), 263.5 MB
+0007.023 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.197 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 100 files added (on-disk size: 567.5 KB)
+0007.239 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 200 files added (on-disk size: 567.5 KB)
+0007.281 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 300 files added (on-disk size: 567.5 KB)
+0007.321 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 400 files added (on-disk size: 567.5 KB)
+0007.361 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 500 files added (on-disk size: 567.5 KB)
+0007.379 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.9 MB, 17956 files batched, 530 (531) added so far); re-opening (prior size: 567.5 KB)
+0015.295 (0) A useful amount of data was added after this amount of zip processing: 9 s (normalised: 8.7 s, rate: 2936.9 KB/s)
+0015.345 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 600 files added (on-disk size: 6591.6 KB)
+0015.384 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 700 files added (on-disk size: 6591.6 KB)
+0015.428 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 800 files added (on-disk size: 6591.6 KB)
+0015.470 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 900 files added (on-disk size: 6591.6 KB)
+0015.485 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 17956 files batched, 395 (926) added so far); re-opening (prior size: 6591.6 KB)
+0021.601 (0) A useful amount of data was added after this amount of zip processing: 6.3 s (normalised: 6.2 s, rate: 4096 KB/s)
+0021.655 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1000 files added (on-disk size: 13281.8 KB)
+0021.693 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1100 files added (on-disk size: 13281.8 KB)
+0021.736 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1200 files added (on-disk size: 13281.8 KB)
+0021.776 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1300 files added (on-disk size: 13281.8 KB)
+0021.818 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1400 files added (on-disk size: 13281.8 KB)
+0021.856 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1500 files added (on-disk size: 13281.8 KB)
+0021.894 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1600 files added (on-disk size: 13281.8 KB)
+0021.933 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1700 files added (on-disk size: 13281.8 KB)
+0021.977 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1800 files added (on-disk size: 13281.8 KB)
+0022.018 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 1900 files added (on-disk size: 13281.8 KB)
+0022.033 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.7 MB, 17956 files batched, 1001 (1927) added so far); re-opening (prior size: 13281.8 KB)
+0034.408 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2000 files added (on-disk size: 18611.5 KB)
+0034.448 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2100 files added (on-disk size: 18611.5 KB)
+0034.489 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2200 files added (on-disk size: 18611.5 KB)
+0034.529 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2300 files added (on-disk size: 18611.5 KB)
+0034.570 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2400 files added (on-disk size: 18611.5 KB)
+0034.613 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2500 files added (on-disk size: 18611.5 KB)
+0034.656 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2600 files added (on-disk size: 18611.5 KB)
+0034.698 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2700 files added (on-disk size: 18611.5 KB)
+0034.737 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2800 files added (on-disk size: 18611.5 KB)
+0034.776 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 2900 files added (on-disk size: 18611.5 KB)
+0034.792 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.8 MB, 17956 files batched, 1001 (2928) added so far); re-opening (prior size: 18611.5 KB)
+0048.178 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3000 files added (on-disk size: 21958.5 KB)
+0048.216 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3100 files added (on-disk size: 21958.5 KB)
+0048.254 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3200 files added (on-disk size: 21958.5 KB)
+0048.293 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3300 files added (on-disk size: 21958.5 KB)
+0048.330 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3400 files added (on-disk size: 21958.5 KB)
+0048.368 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3500 files added (on-disk size: 21958.5 KB)
+0048.407 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3600 files added (on-disk size: 21958.5 KB)
+0048.445 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3700 files added (on-disk size: 21958.5 KB)
+0048.462 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (28.4 MB, 17956 files batched, 801 (3729) added so far); re-opening (prior size: 21958.5 KB)
+0061.329 (0) A useful amount of data was added after this amount of zip processing: 14.1 s (normalised: 12.4 s, rate: 2067.2 KB/s)
+0061.395 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3800 files added (on-disk size: 29383.2 KB)
+0061.433 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 3900 files added (on-disk size: 29383.2 KB)
+0061.473 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4000 files added (on-disk size: 29383.2 KB)
+0061.514 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4100 files added (on-disk size: 29383.2 KB)
+0061.552 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4200 files added (on-disk size: 29383.2 KB)
+0061.590 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4300 files added (on-disk size: 29383.2 KB)
+0061.629 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4400 files added (on-disk size: 29383.2 KB)
+0061.667 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4500 files added (on-disk size: 29383.2 KB)
+0061.706 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4600 files added (on-disk size: 29383.2 KB)
+0061.744 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4700 files added (on-disk size: 29383.2 KB)
+0061.760 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.1 MB, 17956 files batched, 1001 (4730) added so far); re-opening (prior size: 29383.2 KB)
+0086.647 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4800 files added (on-disk size: 37296.4 KB)
+0086.688 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 4900 files added (on-disk size: 37296.4 KB)
+0086.727 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5000 files added (on-disk size: 37296.4 KB)
+0086.766 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5100 files added (on-disk size: 37296.4 KB)
+0086.805 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5200 files added (on-disk size: 37296.4 KB)
+0086.843 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5300 files added (on-disk size: 37296.4 KB)
+0086.882 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5400 files added (on-disk size: 37296.4 KB)
+0086.922 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5500 files added (on-disk size: 37296.4 KB)
+0086.960 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5600 files added (on-disk size: 37296.4 KB)
+0086.998 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5700 files added (on-disk size: 37296.4 KB)
+0087.012 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.7 MB, 17956 files batched, 1001 (5731) added so far); re-opening (prior size: 37296.4 KB)
+0104.991 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5800 files added (on-disk size: 41913.4 KB)
+0105.028 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 5900 files added (on-disk size: 41913.4 KB)
+0105.064 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6000 files added (on-disk size: 41913.4 KB)
+0105.100 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6100 files added (on-disk size: 41913.4 KB)
+0105.137 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6200 files added (on-disk size: 41913.4 KB)
+0105.174 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6300 files added (on-disk size: 41913.4 KB)
+0105.213 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6400 files added (on-disk size: 41913.4 KB)
+0105.251 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6500 files added (on-disk size: 41913.4 KB)
+0105.288 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6600 files added (on-disk size: 41913.4 KB)
+0105.326 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6700 files added (on-disk size: 41913.4 KB)
+0105.342 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.4 MB, 17956 files batched, 1001 (6732) added so far); re-opening (prior size: 41913.4 KB)
+0121.898 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6800 files added (on-disk size: 49391.9 KB)
+0121.935 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 6900 files added (on-disk size: 49391.9 KB)
+0121.973 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7000 files added (on-disk size: 49391.9 KB)
+0122.013 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7100 files added (on-disk size: 49391.9 KB)
+0122.053 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7200 files added (on-disk size: 49391.9 KB)
+0122.090 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7300 files added (on-disk size: 49391.9 KB)
+0122.130 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7400 files added (on-disk size: 49391.9 KB)
+0122.168 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7500 files added (on-disk size: 49391.9 KB)
+0122.207 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7600 files added (on-disk size: 49391.9 KB)
+0122.246 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7700 files added (on-disk size: 49391.9 KB)
+0122.263 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.3 MB, 17956 files batched, 1001 (7733) added so far); re-opening (prior size: 49391.9 KB)
+0135.442 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7800 files added (on-disk size: 52685.1 KB)
+0135.480 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 7900 files added (on-disk size: 52685.1 KB)
+0135.520 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8000 files added (on-disk size: 52685.1 KB)
+0135.559 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8100 files added (on-disk size: 52685.1 KB)
+0135.597 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8200 files added (on-disk size: 52685.1 KB)
+0135.635 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8300 files added (on-disk size: 52685.1 KB)
+0135.672 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8400 files added (on-disk size: 52685.1 KB)
+0135.712 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8500 files added (on-disk size: 52685.1 KB)
+0135.750 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8600 files added (on-disk size: 52685.1 KB)
+0135.788 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8700 files added (on-disk size: 52685.1 KB)
+0135.806 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.9 MB, 17956 files batched, 1001 (8734) added so far); re-opening (prior size: 52685.1 KB)
+0144.248 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8800 files added (on-disk size: 55061.2 KB)
+0144.286 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 8900 files added (on-disk size: 55061.2 KB)
+0144.323 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9000 files added (on-disk size: 55061.2 KB)
+0144.362 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9100 files added (on-disk size: 55061.2 KB)
+0144.401 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9200 files added (on-disk size: 55061.2 KB)
+0144.441 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9300 files added (on-disk size: 55061.2 KB)
+0144.480 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9400 files added (on-disk size: 55061.2 KB)
+0144.520 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9500 files added (on-disk size: 55061.2 KB)
+0144.558 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9600 files added (on-disk size: 55061.2 KB)
+0144.597 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9700 files added (on-disk size: 55061.2 KB)
+0144.616 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.9 MB, 17956 files batched, 1001 (9735) added so far); re-opening (prior size: 55061.2 KB)
+0168.052 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9800 files added (on-disk size: 63662.8 KB)
+0168.090 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 9900 files added (on-disk size: 63662.8 KB)
+0168.130 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10000 files added (on-disk size: 63662.8 KB)
+0168.168 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10100 files added (on-disk size: 63662.8 KB)
+0168.208 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10200 files added (on-disk size: 63662.8 KB)
+0168.248 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10300 files added (on-disk size: 63662.8 KB)
+0168.288 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10400 files added (on-disk size: 63662.8 KB)
+0168.329 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10500 files added (on-disk size: 63662.8 KB)
+0168.368 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10600 files added (on-disk size: 63662.8 KB)
+0168.407 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10700 files added (on-disk size: 63662.8 KB)
+0168.424 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.3 MB, 17956 files batched, 1001 (10736) added so far); re-opening (prior size: 63662.8 KB)
+0185.028 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10800 files added (on-disk size: 65532.9 KB)
+0185.129 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 10900 files added (on-disk size: 65532.9 KB)
+0185.227 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11000 files added (on-disk size: 65532.9 KB)
+0185.265 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11100 files added (on-disk size: 65532.9 KB)
+0185.303 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11200 files added (on-disk size: 65532.9 KB)
+0185.341 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11300 files added (on-disk size: 65532.9 KB)
+0185.381 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11400 files added (on-disk size: 65532.9 KB)
+0185.419 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11500 files added (on-disk size: 65532.9 KB)
+0185.460 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11600 files added (on-disk size: 65532.9 KB)
+0185.499 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11700 files added (on-disk size: 65532.9 KB)
+0185.519 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6 MB, 17956 files batched, 1001 (11737) added so far); re-opening (prior size: 65532.9 KB)
+0205.986 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11800 files added (on-disk size: 67373.1 KB)
+0206.107 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 11900 files added (on-disk size: 67373.1 KB)
+0206.145 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12000 files added (on-disk size: 67373.1 KB)
+0206.182 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12100 files added (on-disk size: 67373.1 KB)
+0206.221 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12200 files added (on-disk size: 67373.1 KB)
+0206.260 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12300 files added (on-disk size: 67373.1 KB)
+0206.299 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12400 files added (on-disk size: 67373.1 KB)
+0206.339 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12500 files added (on-disk size: 67373.1 KB)
+0206.378 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12600 files added (on-disk size: 67373.1 KB)
+0206.416 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12700 files added (on-disk size: 67373.1 KB)
+0206.435 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.4 MB, 17956 files batched, 1001 (12738) added so far); re-opening (prior size: 67373.1 KB)
+0228.587 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12800 files added (on-disk size: 69045.8 KB)
+0228.624 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 12900 files added (on-disk size: 69045.8 KB)
+0228.662 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13000 files added (on-disk size: 69045.8 KB)
+0228.698 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13100 files added (on-disk size: 69045.8 KB)
+0228.735 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13200 files added (on-disk size: 69045.8 KB)
+0228.773 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13300 files added (on-disk size: 69045.8 KB)
+0228.812 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13400 files added (on-disk size: 69045.8 KB)
+0228.851 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13500 files added (on-disk size: 69045.8 KB)
+0228.888 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13600 files added (on-disk size: 69045.8 KB)
+0228.914 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 17956 files batched, 925 (13663) added so far); re-opening (prior size: 69045.8 KB)
+0251.855 (0) A useful amount of data was added after this amount of zip processing: 23.6 s (normalised: 23.5 s, rate: 1090 KB/s)
+0251.868 (0) Performance is good - will increase the amount of data we attempt to batch (time=23.590728998184, normalised_time=23.486934352081, max_time=251.86189103127, data points known=1, old_max_bytes=26214400, new_max_bytes=168665903)
+0251.965 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13700 files added (on-disk size: 79996.9 KB)
+0252.003 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13800 files added (on-disk size: 79996.9 KB)
+0252.041 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 13900 files added (on-disk size: 79996.9 KB)
+0252.079 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14000 files added (on-disk size: 79996.9 KB)
+0252.118 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14100 files added (on-disk size: 79996.9 KB)
+0252.157 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14200 files added (on-disk size: 79996.9 KB)
+0252.195 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14300 files added (on-disk size: 79996.9 KB)
+0252.236 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14400 files added (on-disk size: 79996.9 KB)
+0252.275 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14500 files added (on-disk size: 79996.9 KB)
+0252.314 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14600 files added (on-disk size: 79996.9 KB)
+0252.343 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.1 MB, 17956 files batched, 1001 (14664) added so far); re-opening (prior size: 79996.9 KB)
+0273.184 (0) The time we have been running (273.2) is approaching the resumption interval (300) - increasing resumption interval to 304
+0273.195 (0) The scheduled resumption is within 45 seconds - will reschedule
+0273.207 (0) Rescheduling resumption 1: moving to 349 seconds from now (1779917819)
+0273.225 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 304 + 45 = 349
+0273.322 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14700 files added (on-disk size: 85877.2 KB)
+0273.363 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14800 files added (on-disk size: 85877.2 KB)
+0273.401 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 14900 files added (on-disk size: 85877.2 KB)
+0273.441 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15000 files added (on-disk size: 85877.2 KB)
+0273.486 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15100 files added (on-disk size: 85877.2 KB)
+0273.524 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15200 files added (on-disk size: 85877.2 KB)
+0273.562 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15300 files added (on-disk size: 85877.2 KB)
+0273.600 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15400 files added (on-disk size: 85877.2 KB)
+0273.636 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15500 files added (on-disk size: 85877.2 KB)
+0273.674 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15600 files added (on-disk size: 85877.2 KB)
+0273.700 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.9 MB, 17956 files batched, 1001 (15665) added so far); re-opening (prior size: 85877.2 KB)
+0295.889 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15700 files added (on-disk size: 87553.2 KB)
+0295.927 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15800 files added (on-disk size: 87553.2 KB)
+0295.966 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 15900 files added (on-disk size: 87553.2 KB)
+0296.005 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16000 files added (on-disk size: 87553.2 KB)
+0296.042 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16100 files added (on-disk size: 87553.2 KB)
+0296.082 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16200 files added (on-disk size: 87553.2 KB)
+0296.119 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16300 files added (on-disk size: 87553.2 KB)
+0296.157 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16400 files added (on-disk size: 87553.2 KB)
+0296.193 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16500 files added (on-disk size: 87553.2 KB)
+0296.230 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16600 files added (on-disk size: 87553.2 KB)
+0296.256 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.4 MB, 17956 files batched, 1001 (16666) added so far); re-opening (prior size: 87553.2 KB)
+0316.629 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16700 files added (on-disk size: 88426.5 KB)
+0316.668 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16800 files added (on-disk size: 88426.5 KB)
+0316.705 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 16900 files added (on-disk size: 88426.5 KB)
+0316.744 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17000 files added (on-disk size: 88426.5 KB)
+0316.785 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17100 files added (on-disk size: 88426.5 KB)
+0316.823 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17200 files added (on-disk size: 88426.5 KB)
+0316.861 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17300 files added (on-disk size: 88426.5 KB)
+0316.900 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17400 files added (on-disk size: 88426.5 KB)
+0316.937 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17500 files added (on-disk size: 88426.5 KB)
+0316.977 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17600 files added (on-disk size: 88426.5 KB)
+0317.004 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.1 MB, 17956 files batched, 1001 (17667) added so far); re-opening (prior size: 88426.5 KB)
+0334.671 (0) The time we have been running (334.7) is approaching the resumption interval (349) - increasing resumption interval to 365
+0334.793 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17700 files added (on-disk size: 89787.6 KB)
+0334.831 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17800 files added (on-disk size: 89787.6 KB)
+0334.870 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.tmp: 17900 files added (on-disk size: 89787.6 KB)
+0341.471 (0) The time we have been running (341.4) is approaching the resumption interval (365) - increasing resumption interval to 372
+0341.594 (0) Creating zip file manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.list-temp.tmp)
+0341.660 (0) Successfully created zip file manifest (size: 1659977)
+0342.364 (0) Created plugins zip (0) - 90109.6 KB in 342.1 s (263.4 KB/s) (sha1: 438b4101e8e5a980aa3be907bb10de251b60fd6c, sha256: e1320d856743cdedb2786fdbd52d0718a3162d9fb072670ce650befdf1bf608a)
+0342.392 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0342.398 (0) No remote despatch: user chose no remote backup service
+0342.405 (0) Recording as successfully uploaded: backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip
+0342.416 (0) Deleting zip manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip.list.tmp)
+0342.429 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0342.435 (0) Number of backup sets in history: 2; groups (db): 1
+0342.441 (0) Examining (for databases) backup set with group_id=0, nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0342.447 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0342.453 (0) Examining (for databases) backup set with group_id=0, nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0342.453 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0342.454 (0) Number of backup sets in history: 2; groups (files): 1
+0342.458 (0) Examining (for files) backup set with nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0342.458 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0342.463 (0) Examining (for files) backup set with nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0342.463 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0342.464 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0342.487 (0) Beginning creation of dump of themes (split every: 400 MB)
+0342.838 (0) Total entities for the zip file: 384 directories, 1145 files (0 skipped as non-modified), 35.1 MB
+0342.882 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0342.920 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0342.961 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0343.005 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0343.042 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0343.081 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0343.122 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0343.161 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0343.200 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0343.239 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0343.245 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (30.6 MB, 1145 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0359.991 (0) The time we have been running (360) is approaching the resumption interval (372) - increasing resumption interval to 390
+0360.041 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.tmp: 1100 files added (on-disk size: 15681.9 KB)
+0362.408 (0) The time we have been running (362.4) is approaching the resumption interval (390) - increasing resumption interval to 393
+0362.428 (0) Creating zip file manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.list-temp.tmp)
+0362.438 (0) Successfully created zip file manifest (size: 90810)
+0362.602 (0) Created themes zip (0) - 19650.1 KB in 20.1 s (977.5 KB/s) (sha1: 81335abbf3a3322a338132f3f69da74d1fd20450, sha256: c2de2830843533c1562c1a0dbf555efdb3f1fb9dba5ecd107b84ca55d8563d39)
+0362.621 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0362.628 (0) No remote despatch: user chose no remote backup service
+0362.634 (0) Recording as successfully uploaded: backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip
+0362.645 (0) Deleting zip manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip.list.tmp)
+0362.658 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0362.665 (0) Number of backup sets in history: 2; groups (db): 1
+0362.669 (0) Examining (for databases) backup set with group_id=0, nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0362.675 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0362.681 (0) Examining (for databases) backup set with group_id=0, nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0362.681 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0362.682 (0) Number of backup sets in history: 2; groups (files): 1
+0362.687 (0) Examining (for files) backup set with nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0362.688 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0362.693 (0) Examining (for files) backup set with nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0362.693 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0362.693 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0362.719 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0362.724 (0) Looking for candidates to backup in: C:\Users\angel\Local Sites\umbral\app\public/wp-content/uploads
+0362.730 (0) finding files: 2026: adding to list (1)
+0362.736 (0) finding files: elementor: adding to list (2)
+0362.740 (0) finding files: essential-addons-elementor: adding to list (3)
+0362.747 (0) finding files: happyaddons: adding to list (4)
+0362.752 (0) finding files: rank-math: adding to list (5)
+0362.757 (0) finding files: wc-logs: adding to list (6)
+0362.762 (0) finding files: woocommerce-placeholder-100x100.webp: adding to list (7)
+0362.767 (0) finding files: woocommerce-placeholder-1024x1024.webp: adding to list (8)
+0362.773 (0) finding files: woocommerce-placeholder-150x150.webp: adding to list (9)
+0362.780 (0) finding files: woocommerce-placeholder-300x300.webp: adding to list (10)
+0362.786 (0) finding files: woocommerce-placeholder-600x600.webp: adding to list (11)
+0362.792 (0) finding files: woocommerce-placeholder-768x768.webp: adding to list (12)
+0362.801 (0) finding files: woocommerce-placeholder.webp: adding to list (13)
+0362.808 (0) finding files: woocommerce_uploads: adding to list (14)
+0362.813 (0) finding files: wpforms: adding to list (15)
+0362.820 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0362.892 (0) Total entities for the zip file: 22 directories, 299 files (0 skipped as non-modified), 63.6 MB
+0362.932 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0362.972 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0363.908 (0) The time we have been running (363.9) is approaching the resumption interval (393) - increasing resumption interval to 394
+0363.920 (0) Creating zip file manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-uploads.zip.list-temp.tmp)
+0363.928 (0) Successfully created zip file manifest (size: 21900)
+0364.361 (0) Created uploads zip (0) - 56842.3 KB in 1.5 s (37174.4 KB/s) (sha1: 1768c6fe9f6b6fa24cea968aa8463a738e1b4d13, sha256: 2e6b80b9e3df3693645fc34cc7a01cac536de5f6c33862325b53a591efc4ccd3)
+0364.380 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0364.386 (0) No remote despatch: user chose no remote backup service
+0364.392 (0) Recording as successfully uploaded: backup_2026-05-27-1826_Umbral_cc1efbacaeef-uploads.zip
+0364.404 (0) Deleting zip manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-uploads.zip.list.tmp)
+0364.416 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0364.423 (0) Number of backup sets in history: 2; groups (db): 1
+0364.427 (0) Examining (for databases) backup set with group_id=0, nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0364.427 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0364.432 (0) Examining (for databases) backup set with group_id=0, nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0364.432 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0364.432 (0) Number of backup sets in history: 2; groups (files): 1
+0364.438 (0) Examining (for files) backup set with nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0364.439 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0364.444 (0) Examining (for files) backup set with nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0364.444 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0364.445 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0364.464 (0) No backup of mu-plugins: excluded by user's options
+0364.474 (0) Beginning backup of other directories found in the content directory (index: 0)
+0364.480 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0364.484 (0) Looking for candidates to backup in: C:\Users\angel\Local Sites\umbral\app\public/wp-content
+0364.490 (0) finding files: index.php: adding to list (1)
+0364.495 (0) finding files: languages: adding to list (2)
+0364.500 (0) finding files: litespeed: adding to list (3)
+0364.506 (0) finding files: plugins: skipping: this is the plugins directory
+0364.511 (0) finding files: themes: skipping: this is the themes directory
+0364.517 (0) finding files: updraft: skipping: this is the updraft directory
+0364.523 (0) finding files: upgrade: skipping: excluded by options
+0364.529 (0) finding files: uploads: skipping: this is the uploads directory
+0364.536 (0) finding files: wflogs: adding to list (4)
+0364.652 (0) Total entities for the zip file: 6 directories, 507 files (0 skipped as non-modified), 21.7 MB
+0364.692 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0364.730 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0364.769 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0364.808 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0364.846 (0) Zip: backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0373.164 (0) The time we have been running (373.1) is approaching the resumption interval (394) - increasing resumption interval to 404
+0373.175 (0) Creating zip file manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip.list-temp.tmp)
+0373.184 (0) Successfully created zip file manifest (size: 38940)
+0373.268 (0) Created others zip (0) - 8591.6 KB in 8.7 s (985 KB/s) (sha1: e4cf45332ecacc204c6ef4b88a1e2805118dbcbd, sha256: 6f45e780989b654a4830b3ff85651a2de9d5e601957429d0af98a6fb3609c128)
+0373.287 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0373.292 (0) No remote despatch: user chose no remote backup service
+0373.299 (0) Recording as successfully uploaded: backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip
+0373.311 (0) Deleting zip manifest (backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip.list.tmp)
+0373.324 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0373.330 (0) Number of backup sets in history: 2; groups (db): 1
+0373.335 (0) Examining (for databases) backup set with group_id=0, nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0373.342 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0373.347 (0) Examining (for databases) backup set with group_id=0, nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0373.347 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0373.348 (0) Number of backup sets in history: 2; groups (files): 1
+0373.353 (0) Examining (for files) backup set with nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0373.353 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0373.360 (0) Examining (for files) backup set with nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0373.360 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0373.360 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0373.394 (0) Saving backup status to database (elements: 8)
+0373.407 (0) Beginning creation of database dump (WordPress DB)
+0373.413 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0373.460 (0) Table wp_options: Total expected rows (via COUNT): 864
+0373.549 (0) Table wp_options: Rows added in this batch (next record: 2640): 860 (uncompressed bytes in this segment=3894325) in 0.10 seconds
+0373.576 (0) Table wp_options: finishing file(s) (2, 551.2 KB)
+0373.596 (0) Table wp_users: Total expected rows (via COUNT): 2
+0373.601 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0373.614 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1626) in 0.02 seconds
+0373.634 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0373.656 (0) Table wp_usermeta: Total expected rows (via COUNT): 56
+0373.662 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0373.675 (0) Table wp_usermeta: Rows added in this batch (next record: 59): 56 (uncompressed bytes in this segment=5318) in 0.03 seconds
+0373.701 (0) Table wp_usermeta: finishing file(s) (2, 2 KB)
+0373.724 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 60
+0373.729 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0373.737 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 156): 60 (uncompressed bytes in this segment=27032) in 0.02 seconds
+0373.762 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 3 KB)
+0373.780 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0373.793 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.01 seconds
+0373.812 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0373.828 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 8
+0373.832 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0373.845 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=828) in 0.02 seconds
+0373.866 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0373.884 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 142
+0373.890 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0373.904 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 142): 142 (uncompressed bytes in this segment=13115) in 0.02 seconds
+0373.923 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.9 KB)
+0373.946 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0373.959 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.02 seconds
+0373.991 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0374.010 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0374.021 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1950) in 0.01 seconds
+0374.043 (0) The time we have been running (374) is approaching the resumption interval (404) - increasing resumption interval to 405
+0374.061 (0) Table wp_comments: finishing file(s) (2, 0.6 KB)
+0374.091 (0) Table wp_links: Total expected rows (via COUNT): 0
+0374.098 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0374.116 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0374.180 (0) Table wp_postmeta: Total expected rows (approximate): 1237
+0374.230 (0) Table wp_postmeta: Rows added in this batch (next record: 1607): 1251 (uncompressed bytes in this segment=2605013) in 0.10 seconds
+0374.255 (0) Table wp_postmeta: finishing file(s) (2, 260.6 KB)
+0374.287 (0) Table wp_posts: Total expected rows (via COUNT): 179
+0374.294 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0374.314 (0) Table wp_posts: Rows added in this batch (next record: 265): 179 (uncompressed bytes in this segment=566091) in 0.04 seconds
+0374.343 (0) Table wp_posts: finishing file(s) (2, 28.8 KB)
+0374.366 (0) Table wp_term_relationships: Total expected rows (approximate): 54
+0374.379 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 54 (uncompressed bytes in this segment=1450) in 0.01 seconds
+0374.401 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0374.422 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 41
+0374.429 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0374.441 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=2469) in 0.03 seconds
+0374.469 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0374.491 (0) Table wp_termmeta: Total expected rows (via COUNT): 4
+0374.497 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0374.510 (0) Table wp_termmeta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=856) in 0.02 seconds
+0374.536 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0374.553 (0) Table wp_terms: Total expected rows (via COUNT): 41
+0374.559 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0374.571 (0) Table wp_terms: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=2144) in 0.02 seconds
+0374.592 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0374.607 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 3
+0374.617 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=603) in 0.01 seconds
+0374.638 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0374.656 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 5
+0374.660 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0374.672 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 235): 5 (uncompressed bytes in this segment=2001) in 0.02 seconds
+0374.691 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0374.709 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0374.730 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.02 seconds
+0374.750 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0374.767 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0374.773 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0374.785 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=810) in 0.02 seconds
+0374.808 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0374.843 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0374.856 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.03 seconds
+0374.882 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0374.913 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0374.920 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.02 seconds
+0374.944 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0374.970 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0374.984 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.02 seconds
+0375.030 (0) The time we have been running (375) is approaching the resumption interval (405) - increasing resumption interval to 406
+0375.044 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0375.072 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0375.080 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.02 seconds
+0375.103 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0375.132 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0375.138 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1090) in 0.02 seconds
+0375.158 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0375.174 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 2
+0375.180 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0375.191 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 128): 2 (uncompressed bytes in this segment=971) in 0.02 seconds
+0375.212 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.5 KB)
+0375.232 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 16
+0375.239 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0375.245 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 235): 16 (uncompressed bytes in this segment=951) in 0.02 seconds
+0375.266 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.4 KB)
+0375.285 (0) Table wp_site_mail_logs: Total expected rows (via COUNT): 2
+0375.291 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0375.297 (0) Table wp_site_mail_logs: Rows added in this batch (next record: 12): 2 (uncompressed bytes in this segment=1619) in 0.02 seconds
+0375.317 (0) Table wp_site_mail_logs: finishing file(s) (2, 0.7 KB)
+0375.337 (0) Table wp_site_mail_statuses: Total expected rows (via COUNT): 2
+0375.343 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0375.350 (0) Table wp_site_mail_statuses: Rows added in this batch (next record: 12): 2 (uncompressed bytes in this segment=1425) in 0.01 seconds
+0375.372 (0) Table wp_site_mail_statuses: finishing file(s) (2, 0.7 KB)
+0375.393 (0) Table wp_site_mail_suppressions: Total expected rows (via COUNT): 0
+0375.408 (0) Table wp_site_mail_suppressions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.02 seconds
+0375.435 (0) Table wp_site_mail_suppressions: finishing file(s) (2, 0.4 KB)
+0375.463 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 79
+0375.468 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0375.481 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 155): 79 (uncompressed bytes in this segment=14568) in 0.03 seconds
+0375.509 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.7 KB)
+0375.535 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 55
+0375.541 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0375.549 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 55): 55 (uncompressed bytes in this segment=28187) in 0.02 seconds
+0375.577 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.3 KB)
+0375.603 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0375.616 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1258) in 0.02 seconds
+0375.637 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0375.663 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0375.669 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.02 seconds
+0375.689 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0375.723 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+0375.729 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1305) in 0.02 seconds
+0375.750 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0375.768 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0375.774 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=709) in 0.01 seconds
+0375.792 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0375.816 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 0
+0375.821 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1515) in 0.02 seconds
+0375.843 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0375.859 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0375.867 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1285) in 0.01 seconds
+0375.888 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0375.907 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0375.914 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1285) in 0.01 seconds
+0375.935 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0375.952 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0375.965 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.02 seconds
+0375.984 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0376.032 (0) Table wp_wc_orders: Total expected rows (via COUNT): 0
+0376.039 (0) Table wp_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1729) in 0.01 seconds
+0376.063 (0) The time we have been running (376) is approaching the resumption interval (406) - increasing resumption interval to 407
+0376.081 (0) Table wp_wc_orders: finishing file(s) (2, 0.6 KB)
+0376.105 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 0
+0376.117 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=743) in 0.02 seconds
+0376.137 (0) Table wp_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0376.155 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0376.165 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=885) in 0.01 seconds
+0376.193 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0376.221 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0376.227 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0376.239 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=926) in 0.03 seconds
+0376.259 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0376.287 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0376.298 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.02 seconds
+0376.317 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0376.343 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0376.348 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.01 seconds
+0376.368 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0376.385 (0) Table wp_wfauditevents: Total expected rows (via COUNT): 0
+0376.391 (0) Table wp_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.01 seconds
+0376.411 (0) Table wp_wfauditevents: finishing file(s) (2, 0.4 KB)
+0376.429 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0376.436 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=624) in 0.01 seconds
+0376.456 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0376.476 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0376.482 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.01 seconds
+0376.502 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0376.520 (0) Table wp_wfconfig: Total expected rows (approximate): 278
+0376.571 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 281 (uncompressed bytes in this segment=1001061) in 0.05 seconds
+0376.592 (0) Table wp_wfconfig: finishing file(s) (2, 508.8 KB)
+0376.609 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0376.614 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=551) in 0.01 seconds
+0376.635 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0376.653 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0376.665 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=455) in 0.01 seconds
+0376.688 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0376.708 (0) Table wp_wffilemods: Total expected rows (approximate): 20599
+0377.299 (0) Table wp_wffilemods: Rows added in this batch (next record: 28000): 22645 (uncompressed bytes in this segment=9515154) in 0.59 seconds
+0377.321 (0) The time we have been running (377.3) is approaching the resumption interval (407) - increasing resumption interval to 408
+0377.343 (0) Table wp_wffilemods: finishing file(s) (2, 2624.5 KB)
+0377.368 (0) Table wp_wfhits: Total expected rows (via COUNT): 3
+0377.372 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0377.384 (0) Table wp_wfhits: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2258) in 0.02 seconds
+0377.404 (0) Table wp_wfhits: finishing file(s) (2, 1 KB)
+0377.423 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0377.435 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=475) in 0.01 seconds
+0377.455 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0377.473 (0) Table wp_wfissues: Total expected rows (via COUNT): 2
+0377.478 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0377.491 (0) Table wp_wfissues: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=3723) in 0.02 seconds
+0377.512 (0) Table wp_wfissues: finishing file(s) (2, 1.4 KB)
+0377.529 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 22149
+0377.707 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: 22646): 22646 (uncompressed bytes in this segment=5336875) in 0.18 seconds
+0377.726 (0) Table wp_wfknownfilelist: finishing file(s) (2, 344.7 KB)
+0377.742 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0377.747 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=647) in 0.01 seconds
+0377.768 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0377.785 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0377.792 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=805) in 0.01 seconds
+0377.813 (0) Table wp_wflocs: finishing file(s) (2, 0.4 KB)
+0377.830 (0) Table wp_wflogins: Total expected rows (via COUNT): 2
+0377.836 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0377.848 (0) Table wp_wflogins: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1133) in 0.02 seconds
+0377.867 (0) Table wp_wflogins: finishing file(s) (2, 0.6 KB)
+0377.884 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0377.897 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=668) in 0.01 seconds
+0377.918 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0377.936 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0377.942 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=547) in 0.01 seconds
+0377.962 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.3 KB)
+0377.979 (0) Table wp_wfls_settings: Total expected rows (approximate): 34
+0377.986 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 34 (uncompressed bytes in this segment=2212) in 0.01 seconds
+0378.007 (0) Table wp_wfls_settings: finishing file(s) (2, 1 KB)
+0378.054 (0) Table wp_wfnotifications: Total expected rows (approximate): 3
+0378.062 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=1209) in 0.01 seconds
+0378.081 (0) The time we have been running (378.1) is approaching the resumption interval (408) - increasing resumption interval to 409
+0378.099 (0) Table wp_wfnotifications: finishing file(s) (2, 0.6 KB)
+0378.126 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0378.131 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=834) in 0.02 seconds
+0378.151 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0378.168 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0378.176 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=602) in 0.01 seconds
+0378.196 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0378.211 (0) Table wp_wfsecurityevents: Total expected rows (via COUNT): 0
+0378.217 (0) Table wp_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0378.236 (0) Table wp_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0378.265 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0378.271 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=692) in 0.02 seconds
+0378.295 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0378.321 (0) Table wp_wfstatus: Total expected rows (via COUNT): 836
+0378.333 (0) Table wp_wfstatus: Rows added in this batch (next record: 836): 836 (uncompressed bytes in this segment=86390) in 0.02 seconds
+0378.354 (0) Table wp_wfstatus: finishing file(s) (2, 14.8 KB)
+0378.371 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0378.378 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=561) in 0.01 seconds
+0378.399 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0378.419 (0) Table wp_wfwaffailures: Total expected rows (via COUNT): 0
+0378.425 (0) Table wp_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=522) in 0.01 seconds
+0378.446 (0) Table wp_wfwaffailures: finishing file(s) (2, 0.3 KB)
+0378.479 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0378.486 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.02 seconds
+0378.512 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0378.538 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0378.545 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=954) in 0.02 seconds
+0378.566 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0378.594 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0378.601 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1562) in 0.02 seconds
+0378.624 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0378.657 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0378.664 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.02 seconds
+0378.690 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0378.716 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0378.723 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.02 seconds
+0378.744 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0378.771 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0378.777 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.02 seconds
+0378.798 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0378.822 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0378.828 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0378.841 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2532) in 0.03 seconds
+0378.867 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1 KB)
+0378.893 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0378.905 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.02 seconds
+0378.926 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0378.944 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0378.950 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0378.968 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0378.986 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0378.991 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.01 seconds
+0379.023 (0) The time we have been running (379) is approaching the resumption interval (409) - increasing resumption interval to 410
+0379.050 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0379.086 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0379.092 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.02 seconds
+0379.111 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0379.128 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0379.134 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1283) in 0.01 seconds
+0379.159 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0379.192 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0379.199 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.02 seconds
+0379.226 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0379.259 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0379.269 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.03 seconds
+0379.294 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0379.322 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0379.334 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.02 seconds
+0379.358 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0379.384 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0379.390 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0379.402 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1036) in 0.03 seconds
+0379.426 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0379.434 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_options.table.tmpr2641.gz (1/87/fopen): adding to final database dump
+0379.452 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_options.table.gz (2/87/fopen): adding to final database dump
+0379.458 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_users.table.tmpr3.gz (3/87/fopen): adding to final database dump
+0379.464 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_users.table.gz (4/87/fopen): adding to final database dump
+0379.468 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_usermeta.table.tmpr60.gz (5/87/fopen): adding to final database dump
+0379.474 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_usermeta.table.gz (6/87/fopen): adding to final database dump
+0379.478 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_actions.table.tmpr157.gz (7/87/fopen): adding to final database dump
+0379.485 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_actions.table.gz (8/87/fopen): adding to final database dump
+0379.490 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/87/fopen): adding to final database dump
+0379.496 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_claims.table.gz (10/87/fopen): adding to final database dump
+0379.500 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_groups.table.tmpr9.gz (11/87/fopen): adding to final database dump
+0379.506 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_groups.table.gz (12/87/fopen): adding to final database dump
+0379.513 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_logs.table.tmpr143.gz (13/87/fopen): adding to final database dump
+0379.518 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_actionscheduler_logs.table.gz (14/87/fopen): adding to final database dump
+0379.522 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_commentmeta.table.tmpr0.gz (15/87/fopen): adding to final database dump
+0379.528 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_commentmeta.table.gz (16/87/fopen): adding to final database dump
+0379.533 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_comments.table.tmpr0.gz (17/87/fopen): adding to final database dump
+0379.539 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_comments.table.gz (18/87/fopen): adding to final database dump
+0379.543 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_links.table.tmpr0.gz (19/87/fopen): adding to final database dump
+0379.549 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_links.table.gz (20/87/fopen): adding to final database dump
+0379.554 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_postmeta.table.tmpr1608.gz (21/87/fopen): adding to final database dump
+0379.563 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_postmeta.table.gz (22/87/fopen): adding to final database dump
+0379.569 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_posts.table.tmpr266.gz (23/87/fopen): adding to final database dump
+0379.575 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_posts.table.gz (24/87/fopen): adding to final database dump
+0379.581 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_term_relationships.table.tmpr100001.gz (25/87/fopen): adding to final database dump
+0379.586 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_term_relationships.table.gz (26/87/fopen): adding to final database dump
+0379.591 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_term_taxonomy.table.tmpr42.gz (27/87/fopen): adding to final database dump
+0379.597 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_term_taxonomy.table.gz (28/87/fopen): adding to final database dump
+0379.603 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_termmeta.table.tmpr5.gz (29/87/fopen): adding to final database dump
+0379.608 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_termmeta.table.gz (30/87/fopen): adding to final database dump
+0379.613 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_terms.table.tmpr42.gz (31/87/fopen): adding to final database dump
+0379.619 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_terms.table.gz (32/87/fopen): adding to final database dump
+0379.623 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/87/fopen): adding to final database dump
+0379.630 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_category_lookup.table.gz (34/87/fopen): adding to final database dump
+0379.637 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_product_meta_lookup.table.tmpr236.gz (35/87/fopen): adding to final database dump
+0379.642 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_product_meta_lookup.table.gz (36/87/fopen): adding to final database dump
+0379.647 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/87/fopen): adding to final database dump
+0379.654 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_reserved_stock.table.gz (38/87/fopen): adding to final database dump
+0379.660 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/87/fopen): adding to final database dump
+0379.665 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_tax_rate_classes.table.gz (40/87/fopen): adding to final database dump
+0379.674 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/87/fopen): adding to final database dump
+0379.681 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_order_itemmeta.table.gz (42/87/fopen): adding to final database dump
+0379.688 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/87/fopen): adding to final database dump
+0379.694 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/87/fopen): adding to final database dump
+0379.698 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_e_events.table.tmpr0.gz (45/87/fopen): adding to final database dump
+0379.705 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_e_events.table.gz (46/87/fopen): adding to final database dump
+0379.711 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_litespeed_url.table.tmpr0.gz (47/87/fopen): adding to final database dump
+0379.716 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_litespeed_url.table.gz (48/87/fopen): adding to final database dump
+0379.720 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_litespeed_url_file.table.tmpr0.gz (49/87/fopen): adding to final database dump
+0379.726 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_litespeed_url_file.table.gz (50/87/fopen): adding to final database dump
+0379.732 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_rank_math_internal_links.table.tmpr129.gz (51/87/fopen): adding to final database dump
+0379.738 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_rank_math_internal_links.table.gz (52/87/fopen): adding to final database dump
+0379.744 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_rank_math_internal_meta.table.tmpr236.gz (53/87/fopen): adding to final database dump
+0379.750 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_rank_math_internal_meta.table.gz (54/87/fopen): adding to final database dump
+0379.756 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_site_mail_logs.table.tmpr13.gz (55/87/fopen): adding to final database dump
+0379.762 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_site_mail_logs.table.gz (56/87/fopen): adding to final database dump
+0379.768 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_site_mail_statuses.table.tmpr13.gz (57/87/fopen): adding to final database dump
+0379.774 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_site_mail_statuses.table.gz (58/87/fopen): adding to final database dump
+0379.778 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_site_mail_suppressions.table.tmpr0.gz (59/87/fopen): adding to final database dump
+0379.784 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_site_mail_suppressions.table.gz (60/87/fopen): adding to final database dump
+0379.790 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_admin_note_actions.table.tmpr156.gz (61/87/fopen): adding to final database dump
+0379.795 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_admin_note_actions.table.gz (62/87/fopen): adding to final database dump
+0379.801 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_admin_notes.table.tmpr56.gz (63/87/fopen): adding to final database dump
+0379.807 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_admin_notes.table.gz (64/87/fopen): adding to final database dump
+0379.813 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_customer_lookup.table.tmpr0.gz (65/87/fopen): adding to final database dump
+0379.819 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_customer_lookup.table.gz (66/87/fopen): adding to final database dump
+0379.824 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_download_log.table.tmpr0.gz (67/87/fopen): adding to final database dump
+0379.831 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_download_log.table.gz (68/87/fopen): adding to final database dump
+0379.837 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_addresses.table.tmpr0.gz (69/87/fopen): adding to final database dump
+0379.844 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_addresses.table.gz (70/87/fopen): adding to final database dump
+0379.849 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (71/87/fopen): adding to final database dump
+0379.854 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_coupon_lookup.table.gz (72/87/fopen): adding to final database dump
+0379.858 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_operational_data.table.tmpr0.gz (73/87/fopen): adding to final database dump
+0379.864 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_operational_data.table.gz (74/87/fopen): adding to final database dump
+0379.869 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_product_lookup.table.tmpr1.gz (75/87/fopen): adding to final database dump
+0379.875 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_product_lookup.table.gz (76/87/fopen): adding to final database dump
+0379.882 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_stats.table.tmpr0.gz (77/87/fopen): adding to final database dump
+0379.890 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_stats.table.gz (78/87/fopen): adding to final database dump
+0379.896 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (79/87/fopen): adding to final database dump
+0379.902 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_order_tax_lookup.table.gz (80/87/fopen): adding to final database dump
+0379.915 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_orders.table.tmpr0.gz (81/87/fopen): adding to final database dump
+0379.922 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_orders.table.gz (82/87/fopen): adding to final database dump
+0379.928 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_orders_meta.table.tmpr0.gz (83/87/fopen): adding to final database dump
+0379.934 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_orders_meta.table.gz (84/87/fopen): adding to final database dump
+0379.940 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (85/87/fopen): adding to final database dump
+0379.946 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_product_attributes_lookup.table.gz (86/87/fopen): adding to final database dump
+0379.953 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_product_download_directories.table.tmpr3.gz (87/87/fopen): adding to final database dump
+0379.959 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_product_download_directories.table.gz (88/87/fopen): adding to final database dump
+0379.965 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_rate_limits.table.tmpr0.gz (89/87/fopen): adding to final database dump
+0379.971 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_rate_limits.table.gz (90/87/fopen): adding to final database dump
+0379.974 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_webhooks.table.tmpr0.gz (91/87/fopen): adding to final database dump
+0379.980 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wc_webhooks.table.gz (92/87/fopen): adding to final database dump
+0379.986 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfauditevents.table.tmpr0.gz (93/87/fopen): adding to final database dump
+0379.992 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfauditevents.table.gz (94/87/fopen): adding to final database dump
+0379.998 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfblockediplog.table.tmpr1.gz (95/87/fopen): adding to final database dump
+0380.004 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfblockediplog.table.gz (96/87/fopen): adding to final database dump
+0380.010 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfblocks7.table.tmpr0.gz (97/87/fopen): adding to final database dump
+0380.015 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfblocks7.table.gz (98/87/fopen): adding to final database dump
+0380.020 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfconfig.table.tmpr1001.gz (99/87/fopen): adding to final database dump
+0380.065 (0) The time we have been running (380) is approaching the resumption interval (410) - increasing resumption interval to 411
+0380.079 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfconfig.table.gz (100/87/fopen): adding to final database dump
+0380.085 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfcrawlers.table.tmpr1.gz (101/87/fopen): adding to final database dump
+0380.090 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfcrawlers.table.gz (102/87/fopen): adding to final database dump
+0380.095 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wffilechanges.table.tmpr1.gz (103/87/fopen): adding to final database dump
+0380.101 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wffilechanges.table.gz (104/87/fopen): adding to final database dump
+0380.105 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wffilemods.table.tmpr28001.gz (105/87/fopen): adding to final database dump
+0380.171 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wffilemods.table.gz (106/87/fopen): adding to final database dump
+0380.178 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfhits.table.tmpr4.gz (107/87/fopen): adding to final database dump
+0380.184 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfhits.table.gz (108/87/fopen): adding to final database dump
+0380.190 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfhoover.table.tmpr0.gz (109/87/fopen): adding to final database dump
+0380.195 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfhoover.table.gz (110/87/fopen): adding to final database dump
+0380.200 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfissues.table.tmpr4.gz (111/87/fopen): adding to final database dump
+0380.206 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfissues.table.gz (112/87/fopen): adding to final database dump
+0380.210 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfknownfilelist.table.tmpr22647.gz (113/87/fopen): adding to final database dump
+0380.224 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfknownfilelist.table.gz (114/87/fopen): adding to final database dump
+0380.228 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wflivetraffichuman.table.tmpr1.gz (115/87/fopen): adding to final database dump
+0380.234 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wflivetraffichuman.table.gz (116/87/fopen): adding to final database dump
+0380.241 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wflocs.table.tmpr1001.gz (117/87/fopen): adding to final database dump
+0380.247 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wflocs.table.gz (118/87/fopen): adding to final database dump
+0380.254 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wflogins.table.tmpr3.gz (119/87/fopen): adding to final database dump
+0380.260 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wflogins.table.gz (120/87/fopen): adding to final database dump
+0380.264 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (121/87/fopen): adding to final database dump
+0380.270 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfls_2fa_secrets.table.gz (122/87/fopen): adding to final database dump
+0380.276 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfls_role_counts.table.tmpr1.gz (123/87/fopen): adding to final database dump
+0380.282 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfls_role_counts.table.gz (124/87/fopen): adding to final database dump
+0380.287 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfls_settings.table.tmpr1001.gz (125/87/fopen): adding to final database dump
+0380.292 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfls_settings.table.gz (126/87/fopen): adding to final database dump
+0380.298 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfnotifications.table.tmpr1001.gz (127/87/fopen): adding to final database dump
+0380.303 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfnotifications.table.gz (128/87/fopen): adding to final database dump
+0380.307 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfpendingissues.table.tmpr0.gz (129/87/fopen): adding to final database dump
+0380.313 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfpendingissues.table.gz (130/87/fopen): adding to final database dump
+0380.319 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfreversecache.table.tmpr1001.gz (131/87/fopen): adding to final database dump
+0380.325 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfreversecache.table.gz (132/87/fopen): adding to final database dump
+0380.331 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfsecurityevents.table.tmpr0.gz (133/87/fopen): adding to final database dump
+0380.337 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfsecurityevents.table.gz (134/87/fopen): adding to final database dump
+0380.341 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfsnipcache.table.tmpr0.gz (135/87/fopen): adding to final database dump
+0380.347 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfsnipcache.table.gz (136/87/fopen): adding to final database dump
+0380.351 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfstatus.table.tmpr837.gz (137/87/fopen): adding to final database dump
+0380.358 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfstatus.table.gz (138/87/fopen): adding to final database dump
+0380.363 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wftrafficrates.table.tmpr1.gz (139/87/fopen): adding to final database dump
+0380.369 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wftrafficrates.table.gz (140/87/fopen): adding to final database dump
+0380.374 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfwaffailures.table.tmpr0.gz (141/87/fopen): adding to final database dump
+0380.380 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wfwaffailures.table.gz (142/87/fopen): adding to final database dump
+0380.385 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (143/87/fopen): adding to final database dump
+0380.390 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_api_keys.table.gz (144/87/fopen): adding to final database dump
+0380.394 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (145/87/fopen): adding to final database dump
+0380.401 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_attribute_taxonomies.table.gz (146/87/fopen): adding to final database dump
+0380.407 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (147/87/fopen): adding to final database dump
+0380.413 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (148/87/fopen): adding to final database dump
+0380.418 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_log.table.tmpr0.gz (149/87/fopen): adding to final database dump
+0380.423 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_log.table.gz (150/87/fopen): adding to final database dump
+0380.427 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_order_items.table.tmpr0.gz (151/87/fopen): adding to final database dump
+0380.433 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_order_items.table.gz (152/87/fopen): adding to final database dump
+0380.439 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (153/87/fopen): adding to final database dump
+0380.444 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_payment_tokens.table.gz (154/87/fopen): adding to final database dump
+0380.450 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_sessions.table.tmpr2.gz (155/87/fopen): adding to final database dump
+0380.456 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_sessions.table.gz (156/87/fopen): adding to final database dump
+0380.461 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (157/87/fopen): adding to final database dump
+0380.468 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_shipping_zone_locations.table.gz (158/87/fopen): adding to final database dump
+0380.473 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (159/87/fopen): adding to final database dump
+0380.479 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_shipping_zone_methods.table.gz (160/87/fopen): adding to final database dump
+0380.485 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (161/87/fopen): adding to final database dump
+0380.491 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_shipping_zones.table.gz (162/87/fopen): adding to final database dump
+0380.497 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (163/87/fopen): adding to final database dump
+0380.503 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_tax_rate_locations.table.gz (164/87/fopen): adding to final database dump
+0380.508 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (165/87/fopen): adding to final database dump
+0380.515 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_woocommerce_tax_rates.table.gz (166/87/fopen): adding to final database dump
+0380.521 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_logs.table.tmpr0.gz (167/87/fopen): adding to final database dump
+0380.526 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_logs.table.gz (168/87/fopen): adding to final database dump
+0380.531 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (169/87/fopen): adding to final database dump
+0380.537 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_payment_meta.table.gz (170/87/fopen): adding to final database dump
+0380.543 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_payments.table.tmpr0.gz (171/87/fopen): adding to final database dump
+0380.549 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_payments.table.gz (172/87/fopen): adding to final database dump
+0380.555 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (173/87/fopen): adding to final database dump
+0380.561 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db-table-wp_wpforms_tasks_meta.table.gz (174/87/fopen): adding to final database dump
+0380.580 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db.gz: finished writing out complete database file (4384.4 KB)
+0380.659 (0) Total database tables backed up: 87 (backup_2026-05-27-1826_Umbral_cc1efbacaeef-db.gz, size: 4489795, sha1: 9f7d7a533aa3795e7194f3f0e9dc59ae018fa00a, sha256: 08a14152a0293a18c30a9c17b1b23144858fc746f198012f7a048efb8ea3fca7)
+0380.686 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-plugins.zip: plugins: This file has already been successfully processed
+0380.691 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-themes.zip: themes: This file has already been successfully processed
+0380.696 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-uploads.zip: uploads: This file has already been successfully processed
+0380.702 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-others.zip: others: This file has already been successfully processed
+0380.709 (0) backup_2026-05-27-1826_Umbral_cc1efbacaeef-db.gz: db: This file has not yet been successfully uploaded: will queue
+0380.714 (0) Saving backup history. Total backup size: 175.4 MB
+0380.726 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0380.744 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0380.750 (0) No remote despatch: user chose no remote backup service
+0380.755 (0) Recording as successfully uploaded: backup_2026-05-27-1826_Umbral_cc1efbacaeef-db.gz
+0380.775 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0380.781 (0) Number of backup sets in history: 3; groups (db): 1
+0380.786 (0) Examining (for databases) backup set with group_id=0, nonce=cc1efbacaeef, datestamp=1779917197 (May 27 2026 21:26:37)
+0380.792 (0) This backup set is the backup set just made, so will not be deleted.
+0380.792 (0) Examining (for databases) backup set with group_id=0, nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0380.792 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0380.797 (0) Examining (for databases) backup set with group_id=0, nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0380.797 (0) 1779770413: db: this set includes a database (backup_2026-05-26-0140_Umbral_37f6f3d2fc44-db.gz); db count is now 2
+0380.797 (0) 1779770413: db: over retain limit (2); will delete this database
+0380.798 (0) Delete file: backup_2026-05-26-0140_Umbral_37f6f3d2fc44-db.gz, service=none
+0380.802 (0) Deleting local copy (backup_2026-05-26-0140_Umbral_37f6f3d2fc44-db.gz)
+0380.812 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0380.818 (0) Number of backup sets in history: 3; groups (files): 1
+0380.825 (0) Examining (for files) backup set with nonce=cc1efbacaeef, datestamp=1779917197 (May 27 2026 21:26:37)
+0380.825 (0) This backup set is the backup set just made, so will not be deleted.
+0380.830 (0) This backup set is the backup set just made, so will not be deleted.
+0380.830 (0) This backup set is the backup set just made, so will not be deleted.
+0380.831 (0) This backup set is the backup set just made, so will not be deleted.
+0380.831 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0380.835 (0) Examining (for files) backup set with nonce=bd719b3f5bd5, datestamp=1779777949 (May 26 2026 06:45:49)
+0380.835 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0380.836 (0) Examining (for files) backup set with nonce=37f6f3d2fc44, datestamp=1779770413 (May 26 2026 04:40:13)
+0380.836 (0) plugins: over retain limit (2); will delete this file entity
+0380.836 (0) themes: over retain limit (2); will delete this file entity
+0380.836 (0) uploads: over retain limit (2); will delete this file entity
+0380.836 (0) others: over retain limit (2); will delete this file entity
+0380.836 (0) Delete file: backup_2026-05-26-0140_Umbral_37f6f3d2fc44-plugins.zip, service=none
+0380.841 (0) Deleting local copy (backup_2026-05-26-0140_Umbral_37f6f3d2fc44-plugins.zip)
+0380.848 (0) Delete file: backup_2026-05-26-0140_Umbral_37f6f3d2fc44-themes.zip, service=none
+0380.853 (0) Deleting local copy (backup_2026-05-26-0140_Umbral_37f6f3d2fc44-themes.zip)
+0380.860 (0) Delete file: backup_2026-05-26-0140_Umbral_37f6f3d2fc44-uploads.zip, service=none
+0380.865 (0) Deleting local copy (backup_2026-05-26-0140_Umbral_37f6f3d2fc44-uploads.zip)
+0380.872 (0) Delete file: backup_2026-05-26-0140_Umbral_37f6f3d2fc44-others.zip, service=none
+0380.877 (0) Deleting local copy (backup_2026-05-26-0140_Umbral_37f6f3d2fc44-others.zip)
+0380.888 (0) This backup set is now empty; will remove from history
+0380.894 (0) Deleting log file (log.37f6f3d2fc44.txt)
+0380.901 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0380.918 (0) Resume backup (cc1efbacaeef, 0): finish run
+0380.935 (0) Decremented the semaphore (fd) by 1
+0380.946 (0) Semaphore (fd) unlocked
+0380.952 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0380.970 (0) No email will/can be sent - the user has not configured an email address.
+0380.975 (0) The backup succeeded and is now complete

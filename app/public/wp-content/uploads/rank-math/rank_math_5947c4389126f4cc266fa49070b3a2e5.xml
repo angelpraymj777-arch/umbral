@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//umbral.local/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://umbral.local/post-sitemap.xml</loc>
+		<lastmod>2026-05-25T21:31:54+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://umbral.local/page-sitemap.xml</loc>
+		<lastmod>2026-05-27T22:21:52+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://umbral.local/product-sitemap.xml</loc>
+		<lastmod>2026-05-27T20:34:24+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://umbral.local/category-sitemap.xml</loc>
+		<lastmod>2026-05-25T21:31:54+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

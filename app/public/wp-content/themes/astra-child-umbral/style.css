@@ -1,0 +1,416 @@
+/*
+ Theme Name:   Astra Child Umbral
+ Theme URI:    https://umbral.com
+ Description:  Child Theme para Umbral - Tienda de Ropa
+ Author:       Umbral Team
+ Author URI:   https://umbral.com
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  astra-child-umbral
+ Tags:         e-commerce, one-column, two-columns, custom-colors, custom-logo, 
+               custom-menu, editor-style, featured-images, footer-widgets, 
+               full-width-template, rtl-language-support, theme-options, 
+               threaded-comments, translation-ready, wide-blocks
+ Domain Path:  /languages
+*/
+
+/* ============================================
+   UMBRAL - Personalización de Estilos
+   Tienda de Ropa para Hombres y Mujeres
+   ============================================ */
+
+/* --------------------------------------------------------
+   1. VARIABLES CSS - PALETA DE COLORES UMBRAL
+   -------------------------------------------------------- */
+:root {
+    /* Color Primario - Negro elegante */
+    --umbral-primary: #1a1a1a;
+    
+    /* Color Secundario - Dorado sofisticado */
+    --umbral-secondary: #c9a962;
+    
+    /* Color de Acento - Dorado claro */
+    --umbral-accent: #d4b87a;
+    
+    /* Color de Fondo */
+    --umbral-bg: #ffffff;
+    
+    /* Color de Texto */
+    --umbral-text: #333333;
+    
+    /* Color de Texto Secundario */
+    --umbral-text-light: #666666;
+    
+    /* Color de Error/Alerta */
+    --umbral-error: #dc3545;
+    
+    /* Color de Éxito */
+    --umbral-success: #28a745;
+}
+
+/* --------------------------------------------------------
+   2. ESTILOS GLOBALES
+   -------------------------------------------------------- */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--umbral-text);
+    background-color: var(--umbral-bg);
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--umbral-primary);
+    font-weight: 700;
+}
+
+/* --------------------------------------------------------
+   3. HEADER Y NAVEGACIÓN
+   -------------------------------------------------------- */
+.site-header {
+    background-color: var(--umbral-bg);
+    border-bottom: 1px solid #eee;
+}
+
+.main-header-menu .menu-item a {
+    color: var(--umbral-primary);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.main-header-menu .menu-item a:hover {
+    color: var(--umbral-secondary);
+}
+
+/* Botón de menú móvil */
+.ast-header-break-point .main-header-menu {
+    background-color: var(--umbral-bg);
+}
+
+/* --------------------------------------------------------
+   4. HERO / BANNER PRINCIPAL
+   -------------------------------------------------------- */
+.has-primary-background-color {
+    background-color: var(--umbral-primary) !important;
+}
+
+.has-secondary-background-color {
+    background-color: var(--umbral-secondary) !important;
+}
+
+/* --------------------------------------------------------
+   5. BOTONES
+   -------------------------------------------------------- */
+.wp-block-button__link,
+button,
+.button,
+input[type="submit"],
+.ast-outline-button,
+.elementor-button {
+    background-color: var(--umbral-primary);
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 12px 30px;
+    transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover,
+button:hover,
+.button:hover,
+input[type="submit"]:hover,
+.ast-outline-button:hover,
+.elementor-button:hover {
+    background-color: var(--umbral-secondary);
+    color: var(--umbral-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* --------------------------------------------------------
+   6. WOOCOMMERCE - TIENDA
+   -------------------------------------------------------- */
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    color: var(--umbral-primary);
+    font-weight: 600;
+}
+
+.woocommerce ul.products li.product .price {
+    color: var(--umbral-secondary);
+    font-weight: 700;
+}
+
+.woocommerce ul.products li.product .price del {
+    color: var(--umbral-text-light);
+}
+
+.woocommerce span.onsale {
+    background-color: var(--umbral-secondary);
+    color: var(--umbral-primary);
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    background-color: var(--umbral-primary);
+    color: #fff;
+    border-radius: 0;
+}
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
+    background-color: var(--umbral-secondary);
+    color: var(--umbral-primary);
+}
+
+/* --------------------------------------------------------
+   7. BLOG Y POSTS
+   -------------------------------------------------------- */
+.entry-title a {
+    color: var(--umbral-primary);
+    transition: color 0.3s ease;
+}
+
+.entry-title a:hover {
+    color: var(--umbral-secondary);
+}
+
+.post-navigation .nav-links a {
+    color: var(--umbral-primary);
+    font-weight: 600;
+}
+
+/* Categorías de posts */
+.cat-links a {
+    color: var(--umbral-secondary);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.cat-links a:hover {
+    color: var(--umbral-primary);
+}
+
+/* --------------------------------------------------------
+   8. FOOTER
+   -------------------------------------------------------- */
+.site-footer {
+    background-color: var(--umbral-primary);
+    color: #fff;
+}
+
+.site-footer a {
+    color: rgba(255,255,255,0.8);
+}
+
+.site-footer a:hover {
+    color: var(--umbral-secondary);
+}
+
+.footer-widget-area {
+    background-color: #111;
+}
+
+/* --------------------------------------------------------
+   9. FORMULARIOS
+   -------------------------------------------------------- */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea,
+select {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    padding: 12px 15px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--umbral-secondary);
+    outline: none;
+}
+
+/* --------------------------------------------------------
+   10. LINKS
+   -------------------------------------------------------- */
+a {
+    color: var(--umbral-primary);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--umbral-secondary);
+}
+
+/* --------------------------------------------------------
+   11. ANIMACIONES Y TRANSICIONES
+   -------------------------------------------------------- */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+/* --------------------------------------------------------
+   12. RESPONSIVE
+   -------------------------------------------------------- */
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+    
+    .wp-block-button__link,
+    button,
+    .button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+/* ============================================
+   CSS PERSONALIZADO UMBRAL - DÍA 6
+   Añadido automáticamente
+   ============================================ */
+
+:root {
+    --umbral-negro: #1a1a1a;
+    --umbral-dorado: #c9a962;
+    --umbral-dorado-oscuro: #b8943d;
+    --umbral-blanco: #ffffff;
+    --umbral-gris-claro: #f5f5f5;
+    --umbral-gris: #6c757d;
+    --umbral-spacing: 20px;
+    --umbral-radius: 8px;
+}
+
+.elementor-button, .woocommerce a.button, button, input[type="submit"], .wp-block-button__link {
+    background-color: var(--umbral-dorado) !important;
+    color: var(--umbral-blanco) !important;
+    border: none !important;
+    border-radius: var(--umbral-radius) !important;
+    padding: 12px 30px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease !important;
+}
+
+.elementor-button:hover, .woocommerce a.button:hover, button:hover, input[type="submit"]:hover {
+    background-color: var(--umbral-dorado-oscuro) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(201, 169, 98, 0.4);
+}
+
+a { color: var(--umbral-dorado); transition: color 0.3s ease; }
+a:hover { color: var(--umbral-dorado-oscuro); text-decoration: none; }
+
+.section-dark { background-color: var(--umbral-negro) !important; color: var(--umbral-blanco) !important; padding: var(--umbral-spacing) !important; border-radius: var(--umbral-radius); }
+.section-dark h1, .section-dark h2, .section-dark h3 { color: var(--umbral-dorado) !important; }
+.section-gold { background-color: var(--umbral-dorado) !important; color: var(--umbral-blanco) !important; padding: var(--umbral-spacing) !important; border-radius: var(--umbral-radius); }
+.section-light { background-color: var(--umbral-gris-claro) !important; padding: var(--umbral-spacing) !important; border-radius: var(--umbral-radius); }
+.text-center { text-align: center; }
+.text-gold { color: var(--umbral-dorado); }
+
+.woocommerce .price { color: var(--umbral-dorado) !important; font-weight: 700; }
+.woocommerce span.onsale { background-color: var(--umbral-negro) !important; color: var(--umbral-dorado) !important; }
+.woocommerce .star-rating span::before { color: var(--umbral-dorado) !important; }
+.woocommerce a.add_to_cart_button, .woocommerce button.single_add_to_cart_button { background-color: var(--umbral-negro) !important; color: var(--umbral-blanco) !important; border-radius: var(--umbral-radius) !important; }
+.woocommerce a.add_to_cart_button:hover, .woocommerce button.single_add_to_cart_button:hover { background-color: var(--umbral-dorado) !important; }
+
+@media (max-width: 1024px) {
+    h1 { font-size: 2em !important; }
+    h2 { font-size: 1.75em !important; }
+    .section-dark, .section-gold, .section-light { padding: 15px !important; }
+}
+
+@media (max-width: 767px) {
+    h1 { font-size: 1.75em !important; }
+    h2 { font-size: 1.5em !important; }
+    .elementor-button, .woocommerce a.button, button, input[type="submit"] { width: 100% !important; text-align: center !important; }
+    .woocommerce ul.products li.product { width: 48% !important; }
+}
+
+.site-footer, .footer-widgets, .site-info { background-color: var(--umbral-negro) !important; color: var(--umbral-blanco) !important; }
+.site-footer a, .footer-widgets a { color: var(--umbral-dorado); }
+
+input:focus, textarea:focus, select:focus { border-color: var(--umbral-dorado) !important; outline: none; }
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    border: 2px solid var(--umbral-gris-claro) !important;
+    border-radius: var(--umbral-radius) !important;
+    padding: 12px 15px !important;
+}
+
+/* FIN CSS PERSONALIZADO UMBRAL */
+
+
+/* OCULTAR FRANJA AMARILLA - ADMIN BAR Y NOTIFICACIONES */
+
+/* Ocultar barra de admin cuando no es administrador */
+body.admin-bar #wpadminbar {
+    display: none !important;
+}
+
+/* Ocultar notificaciones de plugins */
+#wpbody-content > .notice,
+#wpbody-content > .updated,
+#wpbody-content > .error {
+    display: none !important;
+}
+
+/* Ocultar banner de actualización de WordPress */
+#wpfooter,
+.updates-available {
+    display: none !important;
+}
+
+/* Franja amarilla de Elementor - editor */
+.elementor-editor-active .elementor-editor-alert {
+    display: none !important;
+}
+
+/* Notificaciones de WooCommerce */
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+    display: none !important;
+}
+
+/* Banner superior genérico */
+body #page > .alert,
+body #page > .notice,
+body > .notification-area {
+    display: none !important;
+}
+
+/* Si es solo para usuarios no logueados, ocultar todo */
+@media screen and (max-width: 782px) {
+    #wpadminbar {
+        display: none !important;
+    }
+}
+

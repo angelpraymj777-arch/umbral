@@ -1,0 +1,397 @@
+/**
+ * Día 6 - Umbral - CSS Personalizado
+ * 
+ * Tienda de Ropa para Hombres y Mujeres
+ * 
+ * Este CSS debe añadirse en:
+ * - Apariencia → Personalizar → CSS adicional
+ * - O en style.css del child theme (astra-child-umbral)
+ */
+
+/* ============================================
+   VARIABLES CSS - PALETA DE COLORES UMBRAL
+   ============================================ */
+
+:root {
+    /* Colores principales */
+    --umbral-negro: #1a1a1a;
+    --umbral-dorado: #c9a962;
+    --umbral-dorado-oscuro: #b8943d;
+    --umbral-blanco: #ffffff;
+    --umbral-gris-claro: #f5f5f5;
+    --umbral-gris: #6c757d;
+    
+    /* Colores de estado */
+    --umbral-success: #28a745;
+    --umbral-warning: #ffc107;
+    --umbral-danger: #dc3545;
+    --umbral-info: #2196f3;
+    
+    /* Espaciado */
+    --umbral-spacing: 20px;
+    --umbral-radius: 8px;
+}
+
+/* ============================================
+   ESTILOS GENERALES
+   ============================================ */
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--umbral-negro);
+    background-color: var(--umbral-blanco);
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--umbral-negro);
+}
+
+/* ============================================
+   BOTONES PERSONALIZADOS
+   ============================================ */
+
+/* Botón principal dorado */
+.elementor-button,
+.woocommerce a.button,
+button,
+input[type="submit"],
+.wp-block-button__link,
+.elementor-widget-button .elementor-button {
+    background-color: var(--umbral-dorado) !important;
+    color: var(--umbral-blanco) !important;
+    border: none !important;
+    border-radius: var(--umbral-radius) !important;
+    padding: 12px 30px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease !important;
+}
+
+.elementor-button:hover,
+.woocommerce a.button:hover,
+button:hover,
+input[type="submit"]:hover,
+.wp-block-button__link:hover,
+.elementor-widget-button .elementor-button:hover {
+    background-color: var(--umbral-dorado-oscuro) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(201, 169, 98, 0.4);
+}
+
+/* Botón secundario */
+.elementor-button-secondary,
+.woocommerce .woocommerce-Button {
+    background-color: var(--umbral-gris) !important;
+    color: var(--umbral-blanco) !important;
+}
+
+/* ============================================
+   ENLACES / LINKS
+   ============================================ */
+
+a {
+    color: var(--umbral-dorado);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--umbral-dorado-oscuro);
+    text-decoration: none;
+}
+
+/* ============================================
+   SECCIONES UTILITARIAS
+   ============================================ */
+
+/* Sección con fondo oscuro */
+.section-dark {
+    background-color: var(--umbral-negro) !important;
+    color: var(--umbral-blanco) !important;
+    padding: var(--umbral-spacing) !important;
+    border-radius: var(--umbral-radius);
+}
+
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4 {
+    color: var(--umbral-dorado) !important;
+}
+
+/* Sección con fondo dorado */
+.section-gold {
+    background-color: var(--umbral-dorado) !important;
+    color: var(--umbral-blanco) !important;
+    padding: var(--umbral-spacing) !important;
+    border-radius: var(--umbral-radius);
+}
+
+/* Sección con fondo gris claro */
+.section-light {
+    background-color: var(--umbral-gris-claro) !important;
+    padding: var(--umbral-spacing) !important;
+    border-radius: var(--umbral-radius);
+}
+
+/* ============================================
+   WOOCOMMERCE - ESTILOS
+   ============================================ */
+
+/* Botones de añadir al carrito */
+.woocommerce a.add_to_cart_button,
+.woocommerce button.single_add_to_cart_button,
+.woocommerce .added_to_cart {
+    background-color: var(--umbral-negro) !important;
+    color: var(--umbral-blanco) !important;
+    border-radius: var(--umbral-radius) !important;
+}
+
+.woocommerce a.add_to_cart_button:hover,
+.woocommerce button.single_add_to_cart_button:hover {
+    background-color: var(--umbral-dorado) !important;
+}
+
+/* Precio */
+.woocommerce .price {
+    color: var(--umbral-dorado) !important;
+    font-weight: 700;
+}
+
+.woocommerce .price del {
+    color: var(--umbral-gris) !important;
+}
+
+/* Badge de venta */
+.woocommerce span.onsale {
+    background-color: var(--umbral-negro) !important;
+    color: var(--umbral-dorado) !important;
+    padding: 5px 15px !important;
+}
+
+/* Estrellas de valoración */
+.woocommerce .star-rating span::before {
+    color: var(--umbral-dorado) !important;
+}
+
+/* ============================================
+   HOVER STATES - EFECTOS
+   ============================================ */
+
+/* Efecto hover en imágenes de productos */
+.woocommerce ul.products li.product a img,
+.woocommerce div.product images {
+    transition: opacity 0.3s ease;
+}
+
+.woocommerce ul.products li.product a img:hover {
+    opacity: 0.8;
+}
+
+/* Efecto hover en tarjetas */
+.elementor-column:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* ============================================
+   RESPONSIVE - TABLET
+   ============================================ */
+
+@media (max-width: 1024px) {
+    /* Ajustes de tipografía */
+    h1 { font-size: 2em !important; }
+    h2 { font-size: 1.75em !important; }
+    h3 { font-size: 1.5em !important; }
+    
+    /* Padding reducido */
+    .section-dark,
+    .section-gold,
+    .section-light {
+        padding: 15px !important;
+    }
+}
+
+/* ============================================
+   RESPONSIVE - MÓVIL
+   ============================================ */
+
+@media (max-width: 767px) {
+    /* Tipografía móvil */
+    h1 { font-size: 1.75em !important; }
+    h2 { font-size: 1.5em !important; }
+    h3 { font-size: 1.25em !important; }
+    
+    /* Botones a pantalla completa */
+    .elementor-button,
+    .woocommerce a.button,
+    button,
+    input[type="submit"] {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    
+    /* Ocultar elementos innecesarios en móvil */
+    .hide-mobile {
+        display: none !important;
+    }
+    
+    /* Padding reducido */
+    body {
+        padding: 10px;
+    }
+    
+    /* Grid de productos a 2 columnas */
+    .woocommerce ul.products li.product {
+        width: 48% !important;
+    }
+}
+
+/* ============================================
+   MENÚ / NAVEGACIÓN
+   ============================================ */
+
+/* Estilo del menú principal */
+.main-navigation a,
+.ast-primary-menu > li > a,
+.elementor-menu-toggle {
+    color: var(--umbral-negro);
+    font-weight: 500;
+}
+
+.main-navigation a:hover,
+.ast-primary-menu > li > a:hover,
+.elementor-menu-toggle:hover {
+    color: var(--umbral-dorado);
+}
+
+/* Menú móvil */
+.ast-mobile-popup-drawer {
+    background-color: var(--umbral-negro);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.site-footer,
+.footer-widgets,
+.site-info {
+    background-color: var(--umbral-negro) !important;
+    color: var(--umbral-blanco) !important;
+}
+
+.site-footer a,
+.footer-widgets a,
+.site-info a {
+    color: var(--umbral-dorado);
+}
+
+.site-footer a:hover,
+.footer-widgets a:hover {
+    color: var(--umbral-dorado-oscuro);
+}
+
+/* ============================================
+   FORMULARIOS
+   ============================================ */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select {
+    border: 2px solid var(--umbral-gris-claro) !important;
+    border-radius: var(--umbral-radius) !important;
+    padding: 12px 15px !important;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--umbral-dorado) !important;
+    outline: none;
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: var(--umbral-gris);
+    opacity: 0.7;
+}
+
+/* ============================================
+   TESTIMONIOS / REVIEWS
+   ============================================ */
+
+.woocommerce .commentlist li .comment-text {
+    border-radius: var(--umbral-radius);
+    border: 1px solid var(--umbral-gris-claro);
+}
+
+.woocommerce .star-rating {
+    color: var(--umbral-dorado);
+}
+
+/* ============================================
+   ANIMACIONES UTILITARIAS
+   ============================================ */
+
+/* Fade in suave */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Slide up */
+.slide-up {
+    animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================
+   CLASES AUXILIARES
+   ============================================ */
+
+/* Texto centrado */
+.text-center { text-align: center; }
+
+/* Texto dorado */
+.text-gold { color: var(--umbral-dorado); }
+
+/* Fondo oscuro */
+.bg-dark { background-color: var(--umbral-negro); color: var(--umbral-blanco); }
+
+/* Sombra suave */
+.shadow { box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+
+/* Border radius */
+.radius { border-radius: var(--umbral-radius); }
+
+/* Margen superior */
+.mt-20 { margin-top: 20px; }
+.mt-40 { margin-top: 40px; }
+
+/* Padding */
+.p-20 { padding: 20px; }
+.p-40 { padding: 40px; }

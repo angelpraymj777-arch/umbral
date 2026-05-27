@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <defs>
+    <!-- Gold gradient for metallic brushed effect -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eed9a9"/>
+      <stop offset="20%" stop-color="#b99a5e"/>
+      <stop offset="40%" stop-color="#eed9a9"/>
+      <stop offset="60%" stop-color="#b99a5e"/>
+      <stop offset="80%" stop-color="#8b7345"/>
+      <stop offset="100%" stop-color="#7d6335"/>
+    </linearGradient>
+
+    <!-- Brushed metal texture pattern -->
+    <pattern id="brushedPattern" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(135)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#ffffff" stroke-width="0.3" opacity="0.3"/>
+    </pattern>
+
+    <!-- Drop shadow filter -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Frame gradient -->
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5ce9f"/>
+      <stop offset="50%" stop-color="#c5a059"/>
+      <stop offset="100%" stop-color="#8b7345"/>
+    </linearGradient>
+
+    <!-- Center disc gradient -->
+    <radialGradient id="discGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1b"/>
+    </radialGradient>
+
+    <!-- Highlight gradient for bevel effect -->
+    <linearGradient id="highlightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="600" fill="#fdfcf9"/>
+
+  <!-- Circular Frame -->
+  <g id="frame">
+    <!-- Outer thin ring -->
+    <circle cx="250" cy="280" r="210" fill="none" stroke="#a68b5b" stroke-width="2"/>
+    <!-- Thick beveled ring -->
+    <circle cx="250" cy="280" r="208" fill="none" stroke="url(#frameGrad)" stroke-width="12"/>
+    <!-- Inner bevel edge -->
+    <circle cx="250" cy="280" r="200" fill="none" stroke="#1a1a1b" stroke-width="4"/>
+    <!-- Inner thin ring -->
+    <circle cx="250" cy="280" r="197" fill="none" stroke="#a68b5b" stroke-width="1"/>
+    <!-- Central disc -->
+    <circle cx="250" cy="280" r="196" fill="url(#discGrad)"/>
+  </g>
+
+  <!-- Geometric Pattern - Interlocking Parallelograms -->
+  <g id="geometricPattern" filter="url(#dropShadow)">
+    <!-- Main gold bar - top left to center (135 degree angle) -->
+    <polygon points="160,160 260,160 230,200 130,200" fill="url(#goldGrad)"/>
+    <!-- Gold bar highlight edge -->
+    <polygon points="160,160 260,160 255,165 155,165" fill="#ffffff" opacity="0.3"/>
+
+    <!-- Dark bar - bottom left to top right - goes OVER gold bar -->
+    <polygon points="150,220 250,180 220,220 120,260" fill="#232323"/>
+    <!-- Dark bar top highlight -->
+    <polygon points="120,260 150,220 155,225 125,265" fill="#ffffff" opacity="0.15"/>
+
+    <!-- Secondary gold bar - parallel to main, below dark bar -->
+    <polygon points="180,240 280,240 250,280 150,280" fill="url(#goldGrad)"/>
+    <!-- Gold bar highlight -->
+    <polygon points="180,240 280,240 275,245 175,245" fill="#ffffff" opacity="0.3"/>
+
+    <!-- Chevron right side - two gold segments -->
+    <!-- Chevron upper segment -->
+    <polygon points="280,160 380,160 340,200" fill="url(#goldGrad)"/>
+    <polygon points="280,160 285,165 345,165 340,200" fill="#ffffff" opacity="0.25"/>
+    <!-- Chevron lower segment -->
+    <polygon points="340,200 380,160 380,200" fill="url(#goldGrad)"/>
+
+    <!-- Small dark accent pieces for interlocking effect -->
+    <!-- Top center dark piece -->
+    <polygon points="260,160 280,160 250,190 230,190" fill="#232323"/>
+    <!-- Left side dark piece -->
+    <polygon points="130,200 150,200 120,230 100,230" fill="#232323"/>
+    <!-- Bottom center dark piece -->
+    <polygon points="150,280 170,280 140,310 120,310" fill="#232323"/>
+    <!-- Right side dark piece -->
+    <polygon points="340,200 360,200 330,230 310,230" fill="#232323"/>
+
+    <!-- Additional gold pieces for depth -->
+    <polygon points="290,220 350,220 320,250 260,250" fill="url(#goldGrad)"/>
+    <polygon points="290,220 295,225 325,225 320,250" fill="#ffffff" opacity="0.2"/>
+
+    <!-- Bottom chevron pointing right -->
+    <polygon points="200,290 280,290 240,340" fill="url(#goldGrad)"/>
+    <polygon points="200,290 210,295 230,295 240,340" fill="#ffffff" opacity="0.25"/>
+  </g>
+
+  <!-- Text -->
+  <text x="250" y="530" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#a48b5a" letter-spacing="4" font-weight="500">EVOLUCIÓN</text>
+  <text x="250" y="560" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#a48b5a" letter-spacing="4" font-weight="500">ESTILÍSTICA</text>
+
+  <!-- Decorative line -->
+  <line x1="150" y1="580" x2="350" y2="580" stroke="#a48b5a" stroke-width="1"/>
+  <!-- Decorative dots -->
+  <circle cx="145" cy="580" r="2" fill="#a48b5a"/>
+  <circle cx="355" cy="580" r="2" fill="#a48b5a"/>
+</svg>
