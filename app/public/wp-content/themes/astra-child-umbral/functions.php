@@ -351,3 +351,59 @@ function umbral_ultimos_posts_shortcode($atts = [], $content = null) {
     return $html;
 }
 add_shortcode('ultimos_posts', 'umbral_ultimos_posts_shortcode');
+
+// ============================================
+// AJAX HANDLER PARA FORMULARIO DE LEADS - DÍA 12
+// ============================================
+
+add_action('wp_ajax_umbral_guardar_lead', 'umbral_guardar_lead');
+add_action('wp_ajax_nopriv_umbral_guardar_lead', 'umbral_guardar_lead');
+
+function umbral_guardar_lead() {
+    // Verificar nonce de seguridad
+    check_ajax_referer('umbral_lead_nonce', 'seguridad');
+    
+    // Sanitizar datos recibidos
+    $nombre = sanitize_text_field($_POST['nombre'] ?? '');
+    $email = sanitize_email($_POST['email'] ?? '');
+    $telefono = sanitize_text_field($_POST['telefono'] ?? '');
+    $mensaje = sanitize_textarea_field($_POST['mensaje'] ?? '');
+    
+    // Validaciones
+    $errores = [];
+    
+    if (empty($nombre)) {
+        $errores[] = 'El nombre es obligatorio.';
+    }
+    
+    if (empty($email) || !is_email($email)) {
+        $errores[] = 'Ingresá un email válido.';
+    }
+    
+    // Si hay errores, devolverlos
+    if (!empty($errores)) {
+        wp_send_json_error([
+            'mensaje' => 'Por favor, corregí los siguientes errores:',
+            'errores' => $errores
+        ]);
+    }
+    
+    // Guardar como post type "umbral_lead" o en opciones
+    $lead_data = [
+        'nombre' => $nombre,
+        'email' => $email,
+        'telefono' => $telefono,
+        'mensaje' => $mensaje,
+        'fecha' => current_time('mysql')
+    ];
+    
+    // Obtener leads existentes
+    $leads = get_option('umbral_leads', []);
+    $leads[] = $lead_data;
+    update_option('umbral_leads', $leads);
+    
+    // Responder éxito
+    wp_send_json_success([
+        'mensaje' => '¡Gracias por tu mensaje! Nos contactaremos pronto.'
+    ]);
+}
